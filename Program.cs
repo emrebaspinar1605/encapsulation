@@ -51,7 +51,6 @@ namespace encapsulation
                 clas=value;
             }
         }
-
         public Student(string name,string surName,int stuNo,int clas)
         {
             Name=name;
@@ -60,7 +59,6 @@ namespace encapsulation
             Clas=clas;
         }
         public Student(){}
-       
         public void GetStudentInformation()
         {
             Console.WriteLine("******** Student İnformation ********");
